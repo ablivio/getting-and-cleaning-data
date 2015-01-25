@@ -51,11 +51,11 @@ This file contains the average of each measure for each activity and each subjec
     * directory 'UCI HAR Dataset', containing:
       * 'activity\_labels.txt' file.
       * 'features.txt' file.
-      * directories <setname> where <setname> is 'train' or 'test', containing each a dataset, structured as follows:
-        * 'X\_<setname>.txt' file
-        * 'y\_<setname>.txt' file
-        * 'subject_<setname>.txt' file
-        * directory 'Inertial Signals', containing 9 files (<axis> is 'x' or 'y' or 'z'):
-          * body\_acc\_<axis>\_<setname>.txt
-          * body\_gyro\_<axis>\_<setname>.txt
-          * body\_acc\_<axis>\_<setname>.txt
+      * directories \<setname\> where \<setname\> is 'train' or 'test', containing each a dataset, structured as follows:
+        * 'X\_\<setname\>.txt' file
+        * 'y\_\<setname\>.txt' file
+        * 'subject_\<setname\>.txt' file
+        * directory 'Inertial Signals', containing 9 files (\<axis\> is 'x' or 'y' or 'z'):
+          * body\_acc\_\<axis\>\_<setname>.txt
+          * body\_gyro\_\<axis\>\_<setname>.txt
+          * body\_acc\_\<axis\>\_<setname>.txt
