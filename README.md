@@ -36,13 +36,8 @@ The codebook can be found [TO BE DEFINED](xxx).
 - You can call the removeFiles() function to remove the ZIP file and the dataset directory holding the unzipped data.
 
 ##Output format
-Output files is in CSV format.
+Output file tidy.txt is in CSV format.
 It can be loaded using read.table().
-
-###tidy.txt
-This file contains the input data filtered to mean and standard deviation measures, and listed along with the relevant subject and activity name. 
-###tidy2.txt
-This file contains the average of each measure for each activity and each subject present in the input.
 
 ##Requirements
 * File download is enabled or source ZIP file is already present in the script's directory and named 'dataset.zip' or unzipped data is already present in a subdirectory called 'dataset' in the script's directory.
